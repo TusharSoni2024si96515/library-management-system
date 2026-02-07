@@ -22,11 +22,26 @@ The application displays a small list of books using a servlet.
 
 ## Project Structure
 
-library-management-system ├── pom.xml ├── src │ └── main │ ├── java │ │
-└── com │ │ └── saco │ │ └── library │ │ ├── model │ │ │ └── Book.java │
-│ ├── service │ │ │ └── LibraryService.java │ │ └── web │ │ └──
-BookServlet.java │ └── webapp │ ├── index.jsp │ └── WEB-INF │ └──
-web.xml └── target └── library.war
+library-management-system
+ ├── pom.xml
+ ├── src
+ │   └── main
+ │       ├── java
+ │       │   └── com
+ │       │       └── saco
+ │       │           └── library
+ │       │               ├── model
+ │       │               │   └── Book.java
+ │       │               ├── service
+ │       │               │   └── LibraryService.java
+ │       │               └── web
+ │       │                   └── BookServlet.java
+ │       └── webapp
+ │           ├── index.jsp
+ │           └── WEB-INF
+ │               └── web.xml
+ └── target
+     └── library.war
 
 ## Application Description
 
