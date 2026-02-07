@@ -99,8 +99,9 @@ demonstrate:
 
 Recommended Sonar configuration:
 
-sonar.projectKey=library-mgmt sonar.projectName=LibraryManagementSystem
-sonar.sources=src/main/java
+sonar.projectKey=com.saco.library:library-management-system
+sonar.projectName=LLibrary Management System
+sonar.sources=src
 
 ## Author
 
